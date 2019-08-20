@@ -33,6 +33,12 @@ class samba::params {
       $config_file = '/usr/local/etc/smb.conf'
       $package = 'samba36'
     }
+    'Suse': {
+      $service = ['smb', 'nmb']
+      $secretstdb = '/var/lib/samba/private/secrets.tdb'
+      $config_file = '/etc/samba/smb.conf'
+      $package = 'samba'
+    }
     default: {
       $service = [ 'samba' ]
       $secretstdb = '/usr/local/samba/private/secrets.tdb'
