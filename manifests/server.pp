@@ -40,6 +40,9 @@ class samba::server (
   $ldap_group_suffix        = undef,
   $ldap_machine_suffix      = undef,
   $ldap_user_suffix         = undef,
+  # Service management
+  $service_ensure           = 'running',
+  $service_enable           = true
 ) inherits ::samba::params {
 
   # Main package and service
