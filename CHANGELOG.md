@@ -1,3 +1,7 @@
+#### 2019-08-20 - 1.1.0
+* Add support for SLES 12
+* Add options for service management
+
 #### 2015-11-16 - 1.0.0
 * Fix service for Debian 8+ (#14, @tskirvin).
 * Fix secrets.tdb path for Ubuntu 14+ (#15, @amateo).

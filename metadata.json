@@ -1,6 +1,6 @@
 {
   "name": "atih-samba",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Brice Sauvajon",
   "summary": "Samba module",
   "license": "Apache-2.0",
@@ -40,6 +40,12 @@
       "operatingsystemrelease": [
         "12",
         "14"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "12"
       ]
     }
   ],
